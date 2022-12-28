@@ -1,0 +1,85 @@
+body {
+    background-color: var(--background-color);  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    height: 360px;
+    width: 360px;
+    border-radius: 4%;
+}
+
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+span {
+    color: var(--text-color);
+}
+
+.london {
+    padding: 7%;
+
+}
+
+.profile {
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.profile-pic img {
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.stats {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.stats .numbers {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+@media (max-width: 376px) {
+    .card{
+        width: 320px;
+        height: 340px;
+    }
+
+    .profile-pic img {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 321px) {
+    .card {
+        width: 275px;
+        height: 280;
+    }
+
+    .stats {
+        padding: 20px;
+    }
+}
