@@ -16,23 +16,18 @@ body {
     border-radius: 4%;
 }
 
-
-h3 {
-    font-weight: 700;
-}
-
-h4 {
+.subtitle {
     font-weight: 400;
-    color: var(--text-color);
-}
-
-span {
-    color: var(--text-color);
 }
 
 .london {
     padding: 7%;
+}
 
+.subtitle,
+.age,
+.london {
+    color: var(--text-color);
 }
 
 .profile {
@@ -40,10 +35,8 @@ span {
     padding-top: 10%;
 }
 
-
 .profile-pic img {
     border-radius: 50%;
-    justify-content: center;
     padding: 10px;
 }
 
@@ -59,7 +52,6 @@ span {
     list-style: none;
     padding: 20px;
     text-align: center;
-    
 }
 
 @media (max-width: 376px) {
